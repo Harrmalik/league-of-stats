@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+
+body {
+  font: 18px "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-shadow: 1px 2px white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #DCDCDC;
+  opacity: 0.9;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;  
+}
+
+img {
+  width: 100%;
+    margin: 0;
+  padding: 0;
+}
+
+div {
+   min-width: 8em;
+   position: relative;
+   text-align: center;
+}
+
+span {
+
+}
+
+#pages {
+  padding: 2em;
+}
+
+a {
+  color: #00B7FF;
+}
