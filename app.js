@@ -3,12 +3,11 @@ var path = require('path');
 var logger = require('morgan');
 //Initialize Models
 require('./models/Matches.js');
-require('./models/Champions.js');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/league');
+mongoose.connect('mongodb://localhost:27017/test');
 
 var routes = require('./routes/index');
 var api = require('./routes/api');

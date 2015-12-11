@@ -1,25 +1,43 @@
 module.exports = [
     {"value":"br",
-    "title":"Brazil"},
+    "title":"Brazil",
+    "start": 655344228
+    },
     {"value":"eune",
-    "title":"EU Nordic & East"},
+    "title":"EU Nordic & East",
+    "start": 1288146074
+    },
     {"value":"euw",
-    "title":"EU West"},
+    "title":"EU West",
+    "start": 2397081719
+    },
     {"value":"kr",
-    "title":"Korea"},
+    "title":"Korea",
+    "start": 2172012464
+    },
     {"value":"lan",
-    "title":"Latin America North"},
+    "title":"Latin America North",
+    "start": 655344228
+    },
     {"value":"las",
-    "title":"Latin America South"},
+    "title":"Latin America South",
+    "start": 655344228
+    },
     {"value":"na",
-    "title":"North America"},
+    "title":"North America",
+    "start": 2015355974
+    },
     {"value":"oce",
-    "title":"Oceania"},
-    {"value":"pbe",
-    "title":"Public Beta Environment"},
-    {"value":"rb",
-    "title":"Russia"},
+    "title":"Oceania",
+    "start": 112545373
+    },
+    {"value":"ru",
+    "title":"Russia",
+    "start": 326841403
+    },
     {"value":"tr",
-    "title":"Turkey"}
+    "title":"Turkey",
+    "start": 326841403
+    }
     ]
 ;
