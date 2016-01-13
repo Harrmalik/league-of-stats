@@ -1,6 +1,6 @@
 {
-  "name": "league-dashboard",
-  "version": "0.0.0",
+  "name": "league-of-stats",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"

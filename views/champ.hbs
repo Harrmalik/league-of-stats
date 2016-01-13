@@ -1,0 +1,44 @@
+<img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{{data.key}}_0.jpg" class="splash" />
+
+<section id="champPage">
+   <article id="Info">
+      <h2>{{data.name}}<br>
+      <small>{{data.title}}</small></h2>
+      <span>
+         {{#each data.tags}}
+            {{tags}}
+         {{/each}}
+      </span>
+   </article>
+   <article id="Skins">
+      <h3>Skins</h3>
+      <div class="slider">
+         <div class="slide-viewer">
+            <div class="slide-group">
+               {{#each data.skins}}
+                  <article class="slide slide-{{i}}">
+                     <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{{data.key}}-{{i}}.jpg" alt='{{name}}' />
+                     <span>{{name}}</span>
+                  </article>
+               {{/each}}
+            </div>
+         </div>
+          <div class="slide-buttons"></div>
+         </div>
+
+   </article>
+   <article id="Skills">
+      <h3>Skills</h3>
+      {{#each data.spells}}
+         <div class="skills">
+            <img src="http://ddragon.leagueoflegends.com/cdn/5.22.2/img/spell/{{image.full}}"/>
+            <h4 class="ui header">{{name}}</h4>
+            <p>{{description}}</p>
+         </div>
+      {{/each}}
+   </article>
+   <article id="Lore">
+      <h3>Lore</h3>
+      <p>{{data.lore}} </p>
+   </article>
+</section>
