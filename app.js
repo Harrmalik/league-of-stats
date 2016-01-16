@@ -4,7 +4,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-//mongoose.connect('mongodb://localhost:27017/league');
+//mongoose.connect('mongodb://localhost:27017/');
 
 var home = require('./routes/index');
 var wiki = require('./routes/wiki');

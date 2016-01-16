@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var request = require('request');
-var key = process.env.API;
+var key = "dd5063aa-3221-473c-a0f1-2d4aa525dcfd" ;//process.env.API;
 var champions;
 request('https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion?champData=all&api_key=' + key, function (error, response, body) {
         body = JSON.parse(body);
@@ -18,7 +18,10 @@ request('https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion?champDa
 });
 
 router.get('/', function(req, res){
-   res.render('index');
+    var vm = {
+        title: "League Wiki"
+    }
+   res.render('wiki', vm);
 });
 
 router.route('/champions')

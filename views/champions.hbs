@@ -1,37 +1,26 @@
-
-
 <div class="ui grid">
-  <div class="four wide column">
-    <div class="ui vertical fluid tabular menu">
-      <a class="active item">
-        Bio
-      </a>
-      <a class="item">
-        Pics
-      </a>
-      <a class="item">
-        Companies
-      </a>
-      <a class="item">
-        Links
-      </a>
-    </div>
-  </div>
+   <div class="four wide column">
+     <div class="ui vertical fluid tabular menu">
+       <a class="active item" href="/wiki/">
+         Home
+       </a>
+       <a class="item" href="/wiki/champions">
+         Champions
+       </a>
+     </div>
+   </div>
   <div class="twelve wide stretched column">
     <div class="ui segment">
       <div>
          <div id="buttons"></div>
          {{#each data}}
             <div class="cards darken">
-               <a href="/wiki/champions/{{ id }}" ><img class="" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{{key}}_0.jpg"
+               <a href="/wiki/champions/{{ id }}" ><img class="ui image" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{{key}}_0.jpg"
                   alt={{name}}  /></a>
-               <span class="hidden">{{ name }}</span>
+               <span class="hidden">{{name}}</span>
             </div>
          {{/each}}
       </div>
-
-      <aside id="left">
-      </aside>
     </div>
   </div>
 </div>

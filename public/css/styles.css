@@ -1,0 +1,188 @@
+body {
+   margin: 0;
+   padding: 0;
+   /*background-color: #F1F1F1;*/
+   background: #F1F1F1;
+   font-family: lato, sans-serif;
+}
+
+header {
+   background-color: #F1F1F1;
+   margin: 0;
+   margin-top: -.5em;
+   padding: 1em;
+   top: 0;
+}
+
+header h1 {
+   display: inline-block;
+   font-size: 200%;
+}
+
+header a {
+   margin: auto 1em;
+}
+
+section {
+   /*margin-top: 1em !important;
+   width: 80%;
+   max-width: 1366px;
+   margin: auto;
+   background-color: white;
+   opacity: .9;
+   box-shadow: 0 0 1em #666;
+   -webkit-box-shadow: 0 0 1em #666;
+   -moz-box-shadow: 0 0 1em #666;
+   -o-box-shadow: 0 0 1em #666;
+   -ms-box-shadow: 0 0 1em #666;
+   padding: 1em;*/
+}
+
+section#champPage {
+   margin-top:10em;
+}
+
+aside#left {
+   position: absolute;
+   top: 30%;
+   left: 0;
+   color: white;
+}
+
+aside#left a {
+   display: block;
+}
+
+aside#left a.active {
+   color: red;
+}
+
+div {
+
+}
+
+
+div.cards {
+   width: 10%;
+   min-width: 8em;
+   margin: .5em;
+   position: relative;
+   text-align: center;
+   float: left;
+}
+
+.cards.slide {
+   width: 100%;
+   min-height: 300px;
+   position: relative;
+   text-align: center;
+}
+
+section img {
+   // Browser Specific
+   -webkit-filter: saturate(50%);
+   -moz-filter: saturate(50%);
+   -o-filter: saturate(50%);
+   -ms-filter: saturate(50%);
+
+      filter: saturate(50%) !important;
+}
+
+.skills {
+   width: 25%;
+   padding: 1em;
+   float: left;
+   text-align: center;
+}
+
+.skills img {
+   border-radius: 3em;
+}
+
+#Lore {
+   clear: both !important;
+   display: block;
+}
+
+.slide-viewer {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   min-height: 300px;
+}
+
+.slide-group {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+.slide {
+   width: 100%;
+   height: 100%;
+   display: none;
+   position: absolute;
+}
+
+.slide:first-child {
+   display: block;
+}
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;}
+
+div .cards span {
+   position:absolute;
+   bottom: 0;
+   left: 0;
+   color: #24B7FF;
+   margin: auto;
+   background: rgba(0, 0, 0, 0.59);
+   width: 100%;
+   text-align: center;
+   font-weight: 900;
+   -webkit-filter: saturate(50%);
+   -moz-filter: saturate(50%);
+   -o-filter: saturate(50%);
+   -ms-filter: saturate(50%);
+
+      filter: saturate(50%) !important;
+}
+
+.hidden {
+   display: none;
+}
+
+.darken {
+   opacity: .6;
+}
+
+.splash {
+   width: 100%;
+   zoom: 100%;
+   position: absolute;
+   z-index: -1;
+   box-shadow: 0 0 2em grey;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   color: #666;
+   text-align: center;
+   border-top: solid grey;
+   margin: auto;
+}
