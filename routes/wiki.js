@@ -24,10 +24,13 @@ router.get('/', function(req, res){
    res.render('wiki', vm);
 });
 
-router.route('/champions')
-   .get(function(req, res){
-      res.render('champions', {'data': champions});
-   });
+router.get('/champions', function(req, res){
+   var vm = {
+        title: "Champions",
+        data: champions
+   };
+   res.render('champions', {'data': champions});
+});
 
 router.route('/champions/:champID')
    .get(function(req, res){
